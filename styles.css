@@ -1,0 +1,55 @@
+@font-face {
+        font-family: 'Santa Ana';
+        src: url(SantaAna-SemiBold.otf);
+    }
+
+    @font-face {
+        font-family: 'Mukta';
+        src: url(MuktaMahee-Regular.ttf);
+    }
+
+
+body {
+  background-color: #D5EFFA;
+}
+
+h1 { 
+  color: #004F7A;
+  font-family: 'Santa Ana';
+  font-size: 70px;
+  margin: auto;
+}
+
+p {
+  font-family: 'Mukta';
+  font-size: 30px;
+}
+
+#Copy {
+    text-align: center;  
+    margin-top: 10%;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    width: 30%;
+    margin-top: 5%;
+
+}
+
+@media only screen and (max-width: 640px){
+	h1 {
+		font-size: 45px !important;
+	}
+	p {
+		font-size: 25px !important;
+    }
+    
+    #logo {
+        display: block;
+        margin: auto;
+        width: 50%;
+        margin-top: 5%;
+    }
+}
